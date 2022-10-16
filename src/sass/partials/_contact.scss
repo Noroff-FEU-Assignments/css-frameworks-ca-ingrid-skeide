@@ -1,0 +1,40 @@
+.btn-primary {
+    width: 100%;
+}
+
+form {
+    max-width: 600px;
+    box-shadow: $box-shadow;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.container_info {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container_info_add {
+    padding: 0;
+}
+
+.fa-envelope, .fa-phone, .fa-location-dot {
+    padding: 10px 20px 0 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.contact_content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .contact_content {
+        flex-direction: column-reverse;
+    }
+}

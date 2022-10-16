@@ -1,0 +1,47 @@
+// Custom
+$colour-primary: #E92569;
+$white: #ffffff;
+$black: #0a0a0a;
+$light-gray: #e5e5e5;
+$med-gray: #C7C7C7;
+$dark-gray: #767676;
+$body-bg: #efefef;
+
+// Bootstrap
+$theme-colors: (
+    "primary": $colour-primary,
+    "dark": $colour-primary,
+);
+
+$input-bg: white;
+$border-radius: 3px;
+$box-shadow:
+6.7px 6.7px 5.3px rgba(0, 0, 0, 0.029),
+22.3px 22.3px 17.9px rgba(0, 0, 0, 0.038),
+100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+
+$headings-font-family: 'Playfair Display', serif;
+$headings-color: $colour-primary;
+
+$font-family-base: 'Lato', sans-serif;
+$input-placeholder-color: $dark-gray;
+
+$nav-pills: $white;
+$pagination-active-bg: $colour-primary;
+$body-color: $dark-gray;
+
+
+@import "~bootstrap/scss/bootstrap";
+
+// Imports
+
+@import "./partials/home";
+
+@import "./partials/typography";
+
+@import "./partials/layout";
+
+@import "./partials/contact";
+
+@import "./partials/news";

@@ -1,0 +1,26 @@
+// Typography
+i {
+    font-size: 24px;
+}
+
+
+
+h1 {
+    margin-top: 3rem;
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-style: italic;
+    color: $colour-primary;
+}
+
+.nav-link {
+    color: $black;
+
+    &:hover {
+        color: $colour-primary;
+    }
+}
+
